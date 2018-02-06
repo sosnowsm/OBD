@@ -24,15 +24,15 @@ public class OBD_jdbc_4_homework_Ocenianie {
 		String sql4 = "CREATE TABLE uczen (idu integer not null, nazwisko_ucznia char(30) not null, imie_ucznia char (20) not null)";
 		String sql5 = "CREATE TABLE ocena (ido integer not null, wartosc_opisowa char(20) not null, wartosc_numeryczna float not null)";
 
-		// Przyk≥odowe dane
+		// Przyk≈Çodowe dane
 
 		String sql11 = "INSERT INTO nauczyciel (idn, nazwisko_nauczyciela, imie_nauczyciela) VALUES (1, 'Kowalski', 'Jan')";
 		String sql12 = "INSERT INTO nauczyciel (idn, nazwisko_nauczyciela, imie_nauczyciela) VALUES (2, 'Wisniewski', 'Stefan')";
 		String sql13 = "INSERT INTO nauczyciel (idn, nazwisko_nauczyciela, imie_nauczyciela) VALUES (3, 'Jazwinski', 'Michal')";
 
-		String sql21 = "INSERT INTO uczen(idu, nazwisko_ucznia, imie_ucznia) VALUES (1, 'Pociech', 'Maria')";
-		String sql22 = "INSERT INTO uczen(idu, nazwisko_ucznia, imie_ucznia) VALUES (2, 'Czerminski', 'Konrad')";
-		String sql23 = "INSERT INTO uczen(idu, nazwisko_ucznia, imie_ucznia) VALUES (3, 'Macienko', 'Krzysztof')";
+		String sql21 = "INSERT INTO uczen(idu, nazwisko_ucznia, imie_ucznia) VALUES (1, 'Posmiech', 'Marian')";
+		String sql22 = "INSERT INTO uczen(idu, nazwisko_ucznia, imie_ucznia) VALUES (2, 'Czerwinski', 'Konrad')";
+		String sql23 = "INSERT INTO uczen(idu, nazwisko_ucznia, imie_ucznia) VALUES (3, 'Maciejko', 'Krzysztof')";
 
 		String sql31 = "INSERT INTO przedmiot (idp, nazwa_przedmiotu) VALUES (1, 'ATJ')";
 		String sql32 = "INSERT INTO przedmiot (idp, nazwa_przedmiotu) VALUES (2, 'PPJ')";
